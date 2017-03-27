@@ -1,4 +1,4 @@
-##Creating a basic Ruby scripting template with RSpec:
+## Creating a basic Ruby scripting template with RSpec:
 
 Create directory with Gemfile, lib/, README.md and [.gitignore]("https://github.com/github/gitignore/blob/master/Ruby.gitignore")
 
@@ -16,7 +16,7 @@ git push -u origin master
 ```
 
 
-Set up Rspec:
+### Set up Rspec:
 
 ```
 rspec --init
@@ -31,14 +31,14 @@ require 'rspec'
 require_relative '../lib/my_file'
 ```
 
-Install dependencies:
+### Install dependencies:
 
 ```sh
 gem install bundler
 bundle install
 ```
 
-Configure environment:
+### Configure environment:
 
 Add the following to each .rb file (top)
 
@@ -46,7 +46,7 @@ Add the following to each .rb file (top)
 #!/usr/bin/env ruby
 ```
 
-Outline any usage instructions in the README.md:
+### Outline any usage instructions in the README.md:
 
 ```md
 ##Usage:
@@ -58,4 +58,3 @@ Install dependencies:
 gem install bundler
 bundle install
 ```
-
